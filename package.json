@@ -2,19 +2,30 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
+    "eslint-define-config": "^2.1.0",
+    "lucide-react": "^0.509.0",
+    "next": "15.3.2",
+    "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "react-syntax-highlighter": "^15.6.1"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^15.3.2",
     "@tailwindcss/postcss": "^4",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-react": "^7.34.0",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4"
   }
 }
