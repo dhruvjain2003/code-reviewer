@@ -11,21 +11,21 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^15.3.2",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-react": "^7.34.0",
     "eslint-define-config": "^2.1.0",
     "lucide-react": "^0.509.0",
     "next": "15.3.2",
     "path": "^0.12.7",
+    "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-syntax-highlighter": "^15.6.1"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^15.3.2",
     "@tailwindcss/postcss": "^4",
-    "eslint": "^9.26.0",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-react": "^7.34.0",
-    "prettier": "^3.5.3",
     "tailwindcss": "^4"
   }
 }
